@@ -1,0 +1,24 @@
+{
+  "name": "playwright-typescript-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:auth": "cross-env TEST_ENV=qa playwright test test/setup.spec.ts --project=chromium",
+    "test:qa": "npm run test:auth TEST_ENV=qa npx playwright test --grep @smoke",
+    "test:smoke": "npx playwright test --grep @smoke --headed ENV=qa"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.5.0"
+  },
+  "dependencies": {
+    "cross-env": "^10.1.0",
+    "dotenv": "^18.0.4",
+    "path": "^0.12.7"
+  }
+}

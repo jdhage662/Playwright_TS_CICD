@@ -1,0 +1,55 @@
+What is auatomation testing?
+=========================================================
+AT means using a s/w tool(selenium) to automate another s/w application(openhrm application).
+
+check the login page:
+
+Manual flow: Open browser --> entering the url --> verifying the login page 
+
+Playwright application: opening the browser ---> entering url --- verifying(asserting) the login page
+
+----------------------------
+Why automation testing:
+
+--Faster
+--repeatedly constant 
+--less effort than Manual
+--less issue as comapre to manual testing
+-- regression purpose
+--find the bug earlier
+-- rerun the application overnight
+-- cross browser testing
+
+------------------------------------------
+-- skill resources
+-- have licence tool 
+-- it will be good if your test are repeated 
+
+-------------------------------------------------------------------------
+2004 -- selenium(RC , webdriver)--
+
+Puppeteer : 2017 : chromium engin 
+
+Cypress: Javascript and TS, 
+
+Playwright -- 2020
+-- Chromium (chrome/edge)
+-- Firefox
+-- Webkit(Safari)
+
+Language:
+
+--Java
+--JS/TS
+--Python
+--.net
+
+What is playwright?
+----------------------------------------------------
+Playwright is a browser automation and end-to-end automation testing framework
+
+------------------------------------------------------------------
+
+Node.JS
+VSC
+Basic understanding JS/TS
