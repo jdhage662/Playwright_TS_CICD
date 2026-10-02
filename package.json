@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test:auth": "cross-env TEST_ENV=qa playwright test test/setup.spec.ts --project=chromium",
-    "test:qa": "npm run test:auth TEST_ENV=qa npx playwright test --grep @smoke",
+    "test:qa": "npm run test:auth TEST_ENV=qa npx playwright test",
     "test:smoke": "npx playwright test --grep @smoke --headed ENV=qa"
   },
   "keywords": [],
